@@ -27,3 +27,4 @@ Dari pernyataan tersebut, dapat dirumuskan pertanyaan-pertanyaan lanjutan yang l
 5.   Bagaimana pengaruh peningkatan quantity produk tertentu terhadap Sales & Profit Perusahaan?
 
 ## Data Understanding and Preparation
+Dataset SaaS Sales ini dapat diakses melalui [disini](https://www.kaggle.com/datasets/nnthanh101/aws-saas-sales)
