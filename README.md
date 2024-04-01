@@ -27,4 +27,30 @@ Dari pernyataan tersebut, dapat dirumuskan pertanyaan-pertanyaan lanjutan yang l
 5.   Bagaimana pengaruh peningkatan quantity produk tertentu terhadap Sales & Profit Perusahaan?
 
 ## Data Understanding and Preparation
-Dataset SaaS Sales ini dapat diakses melalui [disini](https://www.kaggle.com/datasets/nnthanh101/aws-saas-sales)
+Dataset SaaS Sales ini dapat diakses melalui [disini](https://www.kaggle.com/datasets/nnthanh101/aws-saas-sales).
+Dataset ini berisi informasi terkait aktivitas penjualan layanan software selama tahun 2020 sd th 2023. Ada 18 kolom di dalam dataset AWS SaaS Sales, yaitu:  
+
+1. `Order ID`: Kode unik yang berbeda di setiap transaski.
+2. `Order Date`: Tanggal ketika transaski dilakukan. 
+3. `Date Key`: Angka yang merepresentasikan tanggal transaksi (YYYYMMDD). 
+4. `Contact Name`: Contact Person (PIC) dari yang melakukan transaksi.
+5. `Country`: Negara asal dari Perusahaan yang melakukan transaksi. 
+6. `City`: Kota asal dari Perusahaan yang melakukan transaksi. 
+7. `Region`: Wilayah dari Negara yang melakukan transaksi. 
+8. `Subregion`: sub-Wilayah dari Negara yang melakukan transaksi.
+9. `Customer`: Nama Perusahaan yang melakukan transaksi. 
+10. `Customer ID`: Kode unik dari Customer. 
+11. `Industry`: Industri dari Perusahaan. 
+12. `Segment`: Segmen Perusahaan dari Customer (`SMB = Small, Medium Business (UMK)`, `Enterprise`, `Strategic`).
+13. `Product`: Product yang dibeli. 
+14. `License`: Kode lisensi dari produk. 
+15. `Sales`: Jumlah total penjualan dari transaksi. 
+16. `Quantity`:  Jumlah item kuantitas dari transaksi. 
+17. `Discount`: Diskon yang diberikan pada transaksi.
+18. `Profit`: Keuntungan yang diperoleh dari transaksi. 
+
+Dalam data understanding dan preparation, kita melakukan sebagai berikut: 
+1. Pengecakan Missing Values -> dalam dataset ini tidak ada missing values.
+2. Numerik Understanding -> melakukan stastika deskriptif untuk mengetahui mean, nilai min & max, melihat distribusi data, mengecek outliers dan juga melihat menghitung korelasi antar kolom numerik.
+3. Kategorik Undestading -> menghitung jumlah unique values dari kolom kategorik, dan melihat modus dari masing-masing kolom.
+4. 
