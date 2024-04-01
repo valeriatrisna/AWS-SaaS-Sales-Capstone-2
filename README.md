@@ -4,8 +4,8 @@
 
 # Table of Content
 * [Business Problem](https://github.com/valeriatrisna/AWS-SaaS-Sales-Capstone-2/blob/main/README.md#business-problem)
-* Data Understanding and Preparation
-* Explanatory Data Analysis
+* [Data Understanding and Preparation](https://github.com/valeriatrisna/AWS-SaaS-Sales-Capstone-2/blob/main/README.md#data-understanding-and-preparation)
+* Explanatory Data Analysis()
 
     
 ## Business Problem
