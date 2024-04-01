@@ -50,7 +50,7 @@ Dataset ini berisi informasi terkait aktivitas penjualan layanan software selama
 18. `Profit`: Keuntungan yang diperoleh dari transaksi. 
 
 Dalam data understanding dan preparation, kita melakukan sebagai berikut: 
-1. Pengecakan Missing Values -> dalam dataset ini tidak ada missing values.
+1. Pengecakan Missing Values -> dalam dataset ini tidak ada missing values sehingga tidak diperlukan adanya data manipulation.
 2. Numerik Understanding -> melakukan stastika deskriptif untuk mengetahui mean, nilai min & max, melihat distribusi data, mengecek outliers dan juga melihat menghitung korelasi antar kolom numerik.
 3. Kategorik Undestading -> menghitung jumlah unique values dari kolom kategorik, dan melihat modus dari masing-masing kolom.
-4. 
+4. Data Cleaning -> melakukan perubahan tipe data pada kolom Order Date menjadi datetime, dan melihat kembali outliers dari data tersebut bersifat anomali atau tidak.  
