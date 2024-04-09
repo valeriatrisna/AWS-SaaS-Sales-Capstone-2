@@ -60,4 +60,5 @@ Dalam data understanding dan preparation, kita melakukan sebagai berikut:
 Dalam EDA ini, kita menggunakan beberapa library seperti Matplotlib, Seaborn, Scipy Stats, dan juga Apriori untuk menggunakan Market Basket Analysis. Hasil dari EDA ini menyimpulkan bahwa pembelian > 1 produk berbeda sangat berpengaruh terhadap kuantitas produk yang terjual, strategi yang tepat adalah dengan melakukan bundling product & price yang mana hal tersebut memiliki impact yang positif terhadap niat pembelian customer. Lebih lengkapnya bisa melihat dalam file berikut. 
 
 
-
+## Dashboard Tableau
+untuk dashboard penjualan AWS SaaS dapat diakses melalui link berikut : https://public.tableau.com/app/profile/valeria.trisna.yunita/viz/CasptoneProject2-SaaSSales/AWSDashboard
